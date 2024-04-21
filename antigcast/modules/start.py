@@ -47,7 +47,7 @@ def add_panel(username):
 def admin_panel():
     buttons = [
         [
-            InlineKeyboardButton(text="Hubungi Owner", url=f"http://t.me/{OWNER_NAME}")
+            InlineKeyboardButton(text="Hubungi Owner", url=f"http://t.me/OWNER_NEKOGRAM")
         ],
     ]
 
