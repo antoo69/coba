@@ -15,8 +15,8 @@ CTYPE = enums.ChatType
 inlinegc = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="Owner", url=""), #isi link telegram 
-            InlineKeyboardButton(text="Channel", url="") #isi link channel store
+            InlineKeyboardButton(text="Owner", url="http://t.me/OWNER_NEKOGRAM"), #isi link telegram 
+            InlineKeyboardButton(text="Channel", url="http://t.me/AIUCHANNEL") #isi link channel store
         ]
     ]
 )
@@ -27,8 +27,8 @@ inline = InlineKeyboardMarkup(
                     InlineKeyboardButton(text="Daftarkan Grup", callback_data = "langganan")
         ],
         [
-                    InlineKeyboardButton(text="Creator", url=f"http://t.me/{OWNER_NAME}"),
-                    InlineKeyboardButton(text="Channel", url="") #isi link channel store
+                    InlineKeyboardButton(text="Creator", url=f"http://t.me/OWNER_NEKOGRAM"),
+                    InlineKeyboardButton(text="Channel", url="http://t.me/AIUCHANNEL") #isi link channel store
         ]
     ]
 )
