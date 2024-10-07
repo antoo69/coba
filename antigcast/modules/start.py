@@ -15,8 +15,8 @@ CTYPE = enums.ChatType
 inlinegc = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="Owner", url="http://t.me/kagebunshiiin"),
-            InlineKeyboardButton(text="Channel", url="https://t.me/kagestore69")
+            InlineKeyboardButton(text="Owner", url="http://t.me/fsyrl9"),
+            InlineKeyboardButton(text="Channel", url="https://t.me/Galerifsyrl")
         ]
     ]
 )
@@ -27,11 +27,11 @@ inline = InlineKeyboardMarkup(
                     InlineKeyboardButton(text="ʜᴀʀɢᴀ ʙᴏᴛ ᴘʀᴏᴛᴇᴄ", callback_data = "ʜᴀʀɢᴀ")
         ],
         [
-                    InlineKeyboardButton(text="⛑ ᴏᴡɴᴇʀ ʙᴏᴛ", url=f"https://t.me/kagebunshiiin"),
-                    InlineKeyboardButton(text="📩 ᴄʜᴀɴɴᴇʟ", url="https://t.me/kagestore69") 
+                    InlineKeyboardButton(text="⛑ ᴏᴡɴᴇʀ ʙᴏᴛ", url=f"https://t.me/fsyrl9"),
+                    InlineKeyboardButton(text="📩 ᴄʜᴀɴɴᴇʟ", url="https://t.me/Galerifsyrl") 
         ],
         [
-                    InlineKeyboardButton(text="ᴏʀᴅᴇʀ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴜʟʟ ꜰɪᴛᴜʀ", url="https://t.me/kagebunshiiin")
+                    InlineKeyboardButton(text="ᴏʀᴅᴇʀ ᴜꜱᴇʀ ʙᴏᴛ ꜰᴜʟʟ ꜰɪᴛᴜʀ", url="https://t.me/fsyrl9")
         ]
     ]
 )
@@ -50,7 +50,7 @@ def add_panel(username):
 def admin_panel():
     buttons = [
         [
-            InlineKeyboardButton(text="Hubungi Owner", url=f"https://t.me/kagebunshiiin")
+            InlineKeyboardButton(text="Hubungi Owner", url=f"https://t.me/fsyrl9")
         ],
     ]
 
